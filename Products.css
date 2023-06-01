@@ -70,28 +70,6 @@ body {
     margin-bottom: 5px;
   }
   
-  @media screen and (max-width: 768px) {
-    .navbar-container {
-      flex-wrap: wrap;
-    }
-  
-    .navbar-container {
-        display: flex;
-    }
-  
-    .hamburger {
-      display: block;
-    }
-  
-    .content {
-      margin-top: 70px;
-      padding: 20px 20px 20px 20px;
-    }
-  
-    .nav-active {
-      display: flex;
-    }
-  }
   .introduction {
     width: 100vw;
     height: 100vh;
@@ -244,3 +222,26 @@ body {
   padding: 20px;
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar-container {
+      flex-wrap: wrap;
+    }
+  
+    .navbar-container {
+        display: flex;
+    }
+  
+    .content {
+      margin-top: 70px;
+    }
+  
+    .nav-active {
+      display: flex;
+    }
+
+    .home {
+        margin-right: 30px;
+    }
+  }
+ 
