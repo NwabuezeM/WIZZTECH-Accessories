@@ -152,10 +152,10 @@ body {
 .payment-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+   align-items: center;
   width: 100vw;
   height: 100vh;
+  margin: 0 auto;
   color: rgb(148, 170, 173);
 }
 .banks {
@@ -186,14 +186,14 @@ body {
   color: antiquewhite;
   font-size: 1.2em;
 }
-.payment-container {
+.payment-intro {
   width: 100vw;
   height: 50vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 20px;
+  text-align: center;
   color: white;
 }
 
@@ -208,23 +208,39 @@ body {
   
 
     .payment-content {
-      margin-top: 70px;
+      width: fit-content;
+      padding: 0 10px;
+      position: relative;
     }
   
     .nav-active {
       display: flex;
     }
-    .payment-container {
+
+    .payment-intro {
+        display: block;
+        position: relative;
         max-width: 80%;
-        height: fit-content;
+        height: 40vh;
         margin-top: 20px;
     }
 
-    .payment-container h1 {
+    .payment-intro h1 {
         font-size: 28px;
     }
 
-    .payment-container h2 {
+    .payment-intro h2 {
         font-size: 24px;
     }
+  }
+
+  @media (min-width: 500px) {
+    .payment-intro {
+        display: block;
+    }
+
+    .payment-content {
+        width: fit-content;
+        padding: 0 15px;
+      }
   }
