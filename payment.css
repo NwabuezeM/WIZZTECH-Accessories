@@ -208,7 +208,7 @@ body {
   
 
     .payment-content {
-      width: 100%;
+      width: fit-content;
       padding: 0 10px;
       position: relative;
     }
@@ -235,9 +235,11 @@ body {
   }
 
   @media (min-width: 500px) {
+    .payment-container {
+        width: 100%;
+    }
     .payment-intro {
         display: block;
-        margin-top: 2rem;
     }
 
     .payment-content {
