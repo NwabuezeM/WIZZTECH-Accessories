@@ -237,6 +237,7 @@ body {
   @media (min-width: 500px) {
     .payment-intro {
         display: block;
+        margin-top: 2rem;
     }
 
     .payment-content {
