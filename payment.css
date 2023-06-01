@@ -216,6 +216,8 @@ body {
     }
     .payment-container {
         max-width: 80%;
+        height: fit-content;
+        margin-top: 20px;
     }
 
     .payment-container h1 {
